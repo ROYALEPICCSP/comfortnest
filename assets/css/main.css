@@ -1125,6 +1125,18 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 10%);
 }
 
+.portfolio-item {
+  margin: 50px; /* adjust for unique spacing */
+}
+
+.service-img {
+  width: 100%;
+  height: 300px;      /* adjust the height you want */
+  object-fit: cover;  /* crop nicely without distortion */
+  border-radius: 6px; /* optional */
+}
+
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
